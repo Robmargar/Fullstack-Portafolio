@@ -88,7 +88,25 @@ nav {
 
 .acercade .contacto,
 .habilidades .proyectos {
-    width: max-content;
+    width: 150px;
+    font-weight: 600;
+    border-radius: 70px;
+    background: linear-gradient(145deg, #ffcd07d5, #e6ae06);
+    box-shadow:  4px 4px 8px #e8b006e1,
+                 -4px -4px 8px #ffd208;
+
+}
+.icon:hover{
+    filter:drop-shadow(0 0 12px #ffc800be)
+    
+}
+
+.contacto:hover, .proyectos:hover{
+    font-weight: bold;
+    border-radius: 70px;
+    background: linear-gradient(145deg, #e6a500b9, #ffc300);
+    box-shadow:  4px 4px 12px #e8a600a4,
+             -4px -4px 12px #ffc600;
 }
 
 .habilidades {
@@ -190,34 +208,54 @@ nav {
     mask-image: linear-gradient(black 50%,transparent);
 }
 
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu_enlace{
+    display: flex;
+    justify-content: center;
+    min-width: 110px;
+}
+
+.menu_enlace:hover{
+    font-weight: bold;
+}
+
 /* media querys */
 @media screen and (max-width: 991.98px) {
     .contenedor__principal {
-        width: 100%;
+        width: 75%;
     }
 
     .nav__enlaces {
-        position: fixed;
-        width: 60%;
-        height: 100vh;
-        background-color: var(---navColor);
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width:75%;
+        background-color: rgb(59, 59, 59);
+        border-radius: 15px;
+        /* background-color: var(---navColor); */
         top: 55px;
         left: 100%;
-        transition: left 0.3s;
+        transition: top 0.5s;
+    }
+    .nav__enlace:hover{
+        font-weight: bold;
     }
 
     .nav__enlaces__visible {
-        left: calc(100% - 60%);
+        left: 15%;
         transition: left right 2s;
     }
 
     .nav__enlaces .nav__enlace {
-        width: max-content;
-        margin: 20px 50px;
+        margin: 10px ;
     }
 
     .nav__enlaces .nav__enlace:first-child {
-        margin-top: 50px;
+         margin-top: 10px;
     }
 }
 
