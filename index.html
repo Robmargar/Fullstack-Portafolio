@@ -24,9 +24,10 @@
 
 <body class="wellcome w--opacity">
     <!-- barra de anvegación -->
-    <nav class="w-100 position-fixed">
+    <nav class="w-100 position-fixed">  
         <div class="contenedor__principal nav white-color d-flex justify-content-between px-2 py-3 m-auto">
             <div class="nav__name">
+                <img class="logo_Rm" src="./img/rm_nb.png" alt="">
                 <span class="fs-6 fw-bold text-white">Roberto <span class="text-warning"> Martínez</span></span>
             </div>
             <div class="nav_icon">
@@ -135,18 +136,45 @@
     </section>
 
     <!-- experiencia -->
+    <!-- MiCole -->
     <section id="experiencia" class="experiencia container-fluid mb-5">
         <div class="contenedor__principal m-auto text-white px-3">
 
             <div class="row">
                 <div class="col mt-3">
                     <h2 class=" text-center fw-bold my-5 ">Experiencia</h2>
-                    <span> Mi experiencia en el desarrollo web es de 2 años, he podido desarrollar para front-end y back-end siendo el primero el que más me apasiona, mis colaboraciones con diferentes equipoos de desarrollo me han ayudado a crecer en conocimiento, trabajo en equipo, comunicacion acertiva entre muchas otras.  
+                    <span>
+                        
+                        Actualmente me encuentro trabajando en el Proyecto <a href="https://pixelcodesolutions.com/"> "Pixel Code Solutions"</a> como desarrollador Full-Stack, en el cual he tenido la oportunidad de trabajar en diferentes proyectos, tanto en el front-end como en el back-end, he podido colaborar con mi equipo de trabajo, proponer y desarrollar soluciones a los problemas que se presentan en el día a día.
+                        <br>
+                        <br>
+                        Mi experiencia en el desarrollo web es de 3 años, he podido desarrollar para front-end y back-end siendo el primero el que más me apasiona, mis colaboraciones con diferentes equipoos de desarrollo me han ayudado a crecer en conocimiento, trabajo en equipo, comunicacion acertiva entre muchas otras.  
                     </span>
                 </div>
             </div>
+            <br><br>
+            <h4>Sitios Web Experiencia</h4>
 
-            <div class="row row-cols-md-2 row-cols-xl-3 mt-5">
+            <div class="row row-cols-md-2 row-cols-xl-3 mt-2">
+                <!-- PixelCode --> 
+                <div class="col-md p-2 ">
+                    <article class="article__experiencia">
+                        <div class="imagen_referencia">
+                            <img class="w-100 rounded-2" src="img/PixelCodeSolutions/PC.png" alt="experiencia ITQuentame & Brigada">
+                        </div>
+
+                        <div class="spinner">
+                            <div class="double-bounce1"></div>
+                            <div class="double-bounce2"></div>
+                        </div>
+
+                        <span class="m-0 fw-bold">"Pixel Code Solutions"</span>
+                        
+                        <button type="button" data-bs-toggle="modal" href="https://micole.com.pe/" class="btn btn-warning">
+                            <a href="https://pixelcodesolutions.com/" target="_blank">Visitar</a></button>
+                    </article>
+                </div>
+                <!-- MiCole --> 
                 <div class="col-md p-2 ">
                     <article class="article__experiencia">
                         <div class="imagen_referencia">
@@ -159,12 +187,16 @@
                         </div>
 
                         <span class="m-0 fw-bold">"MiCole"</span>
-                        <button type="button" data-bs-toggle="modal" data-bs-target="#brigada"
-                            class="btn btn-warning">Ver más</button>
+                        
+                        <button type="button" data-bs-toggle="modal" href="https://micole.com.pe/" class="btn btn-warning">
+                            <a href="https://micole.com.pe/" target="_blank">Visitar</a></button>
                     </article>
                 </div>
+               
+                
 
-                <!-- <div class="col-md p-2">
+                <!-- EN CASO DE QUERE AGREGAR OTRA EXPERIENCIA -->
+                 <!-- <div class="col-md p-2">
                     <article class="article__experiencia">
                         <div class="imagen_referencia">
                             <img class="w-100 rounded-2" src="img/autorenting.jpg" alt="experiencia auto renting hca">
@@ -181,11 +213,40 @@
                     </article>
                 </div> -->
 
-                <!-- EN CASO DE QUERE AGREGAR OTRA EXPERIENCIA -->
-                <!-- <div class="col-md p-2">
+
+            </div>
+
+        </div>
+    </section>
+
+    <section id="Proyectos" class="experiencia container-fluid mb-5">
+        <div class="contenedor__principal m-auto text-white px-3">
+            <h2 class=" text-center fw-bold my-5 ">Proyectos</h2>
+
+            <div class="row row-cols-md-2 row-cols-xl-3 mt-5">
+                     <!-- MiCole --> 
+                     <div class="col-md p-2 ">
+                        <article class="article__experiencia">
+                            <div class="imagen_referencia">
+                                <img class="w-100 rounded-2" src="img/MiCole/MiCole1.png" alt="experiencia ITQuentame & Brigada">
+                            </div>
+    
+                            <div class="spinner">
+                                <div class="double-bounce1"></div>
+                                <div class="double-bounce2"></div>
+                            </div>
+    
+                            <span class="m-0 fw-bold">"MiCole"</span>
+                            <button type="button" data-bs-toggle="modal" data-bs-target="#brigada"
+                                class="btn btn-warning">Ver más</button>
+                        </article>
+                    </div>
+               
+                <!-- ScrapingJobs --> 
+                <div class="col-md p-2">
                     <article class="article__experiencia">
                         <div class="imagen_referencia">
-                            <img class="w-100 rounded-2" src="#" alt="texto alternativo">
+                            <img class="w-100 rounded-2" src="img/Sracp-Imgs/Home Scrap.png" alt="Img-HomeScraping">
                         </div>
 
                         <div class="spinner">
@@ -193,17 +254,53 @@
                             <div class="double-bounce2"></div>
                         </div>
 
-                        <span class="m-0 fw-bold">Lorem ipsum dolor sit amet.</span>
-                        <button type="button" data-bs-toggle="modal" data-bs-target="#idexperiencia"
+                        <span class="m-0 fw-bold">ScrapingJobs</span>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#Scraping"
+                            class="btn btn-warning">Ver más</button>
+                    </article>
+                </div>   
+                
+                <!-- ShirtDesigner --> 
+                <div class="col-md p-2">
+                    <article class="article__experiencia">
+                        <div class="imagen_referencia">
+                            <img class="w-100 rounded-2" src="img/Diseño-Playeras/DiseñadorPlayeras.png" alt="Img-HomeScraping">
+                        </div>
+
+                        <div class="spinner">
+                            <div class="double-bounce1"></div>
+                            <div class="double-bounce2"></div>
+                        </div>
+
+                        <span class="m-0 fw-bold">Diseñador de Playeras</span>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#Diseñador"
+                            class="btn btn-warning">Ver más</button>
+                    </article>
+                </div>   
+
+                <!-- EN CASO DE QUERE AGREGAR OTRA EXPERIENCIA -->
+                 <!-- <div class="col-md p-2">
+                    <article class="article__experiencia">
+                        <div class="imagen_referencia">
+                            <img class="w-100 rounded-2" src="img/autorenting.jpg" alt="experiencia auto renting hca">
+                        </div>
+
+                        <div class="spinner">
+                            <div class="double-bounce1"></div>
+                            <div class="double-bounce2"></div>
+                        </div>
+
+                        <span class="m-0 fw-bold"> "Tu PcIdeal"</span>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#autorenting"
                             class="btn btn-warning">Ver más</button>
                     </article>
                 </div> -->
+
 
             </div>
 
         </div>
     </section>
-
 
     <!-- svg waves -->
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -255,7 +352,7 @@
 
 
     <!-- Ventanas modal -->
-    <!-- ITQ modal-->
+    <!-- MiCole modal-->
     <div class="modal fade" id="brigada" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl modal-dialog-scrollable">
             <div class="modal-content modal__content--border">
@@ -325,9 +422,164 @@
         </div>
     </div>
 
+    <!-- WebScraping modal -->
+    <div class="modal fade" id="Scraping" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable">
+            <div class="modal-content modal__content--border">
+                <div class="modal-header modal__header--bg text-white">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Web Scraper</h1>
+                </div>
+                <div class="modal-body modal__body--bg">
+                    <h6 class="d-block fw-bold">Funcionalidad:</h6>
+                    <br>
 
-    <!-- AUTO RENTING HCA modal-->
-    <div class="modal fade" id="autorenting" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <p>
+                        La busqueda laboral es una tarea que puede ser tediosa, por ello se creo esta aplicacion que mediante scraping busca en diferentes portales de empleo y muestra los resultados en una sola pagina, de esta manera el usuario puede ver las ofertas de trabajo de manera mas rapida y eficiente.
+                    </p>
+
+                    <div class="custom__carousel rounded-4">
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade w-100 h-100">
+                            <div class="carousel-inner h-100">
+                                <div class="carousel-item active h-100">
+                                    <img src="img/Sracp-Imgs/Home Scrap.png" class="d-block h-100 m-auto" alt="interfaz de log in">
+                                </div>
+                                <div class="carousel-item h-100">
+                                    <img src="./img/ar2.jpeg" class="d-block h-100 m-auto " alt="interfaz de registro">
+                                </div>  
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <a class="btn btn-warning my-3" href="https://github.com/Robmargar/ScrapTrial" target="_blank" rel='noopener noreferrer'>
+                        Visitar repositorio
+                    </a>
+
+                    <br>
+                    <span class="d-block fw-bold">Tecnologías utilizadas:</span>
+                    <ul>
+                        <li><img src="./img/js-n.svg" class="icon-tec" alt="">JavaScript</li>
+                        <li><img src="./img/react-n.svg" class="icon-tec" alt="">React</li>
+                        <li><img src="./img/css3-bn.svg" class="icon-tec" alt="">CSS</li>
+                        <li><img src="./img/node-n.svg" class="icon-tec" alt="">NodeJS</li>
+                    </ul>
+
+                    <br>
+                    <span class="d-block fw-bold">Tareas realizadas:</span>
+                    <br>
+                    <ul>
+                        <li>
+                            Creacion de la aplicacion desde cero.
+                        </li>
+                        <li>
+                            Implementacion de la busqueda en diferentes portales de empleo.
+                        </li>
+                        <li>
+                            Analisis de cada portal para generar un web-scraping eficiente.
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer modal__footer--bg">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">
+                        Cerrar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Diseñador modal -->
+    <div class="modal fade" id="Diseñador" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable">
+            <div class="modal-content modal__content--border">
+                <div class="modal-header modal__header--bg text-white">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Diseñador de Playeras</h1>
+                </div>
+                <div class="modal-body modal__body--bg">
+                    <h6 class="d-block fw-bold">Funcionalidad:</h6>
+                    <br>
+
+                    <p>
+                        Dar a conocer nuestra originalidad es parte de nuestra escencia, por ello se creo esta aplicacion que permite a los usuarios diseñar sus propias playeras, eligiendo el color, el diseño y el texto que deseen, de esta manera el usuario puede tener una playera unica y original.
+
+                        "Diseña tu playera, diseña tu vida"
+                    </p>
+
+                    <div class="custom__carousel rounded-4">
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade w-100 h-100">
+                            <div class="carousel-inner h-100">
+                                <div class="carousel-item active h-100">
+                                    <img src="img/Diseño-Playeras/DiseñadorPlayeras.png" class="d-block h-100 m-auto" alt="interfaz de log in">
+                                </div>
+                                <div class="carousel-item h-100">
+                                    <img src="./img/ar2.jpeg" class="d-block h-100 m-auto " alt="interfaz de registro">
+                                </div>  
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <a class="btn btn-warning my-3" href="https://github.com/Robmargar/Dise-adorPlayeras" target="_blank" rel='noopener noreferrer'>
+                        Visitar repositorio
+                    </a>
+                    
+                    <a class="btn btn-warning my-3" href="https://dise-adorplayeras-m8psfji1v-roberto-martinezs-projects-3dc97fea.vercel.app/" target="_blank" rel='noopener noreferrer'>
+                        Visitar Aplicación
+                    </a>
+
+                    <br>
+                    <span class="d-block fw-bold">Tecnologías utilizadas:</span>
+                    <ul>
+                        <li><img src="./img/js-n.svg" class="icon-tec" alt="">JavaScript</li>
+                        <li><img src="./img/react-n.svg" class="icon-tec" alt="">React</li>
+                        <li><img src="./img/css3-bn.svg" class="icon-tec" alt="">CSS</li>
+                        <li><img src="./img/node-n.svg" class="icon-tec" alt="">NodeJS</li>
+                    </ul>
+
+                    <br>
+                    <span class="d-block fw-bold">Tareas realizadas:</span>
+                    <br>
+                    <ul>
+                        <li>
+                            Mediante el uso de JavaScript, CSS y React se logro la funcionalidad de la aplicacion, En la cual podemos elegir el color de la playera, la imagen a colocar así mismo como su ubicacion y tamaño. 
+                        </li>
+                        <li>
+                            Creacion de la aplicacion desde cero.
+                        </li>
+                        <li>
+                            Diseño y maquetación de la interfaz.
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer modal__footer--bg">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">
+                        Cerrar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- NUEVO modal-->
+    <!-- <div class="modal fade" id="autorenting" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl modal-dialog-scrollable">
             <div class="modal-content modal__content--border">
                 <div class="modal-header modal__header--bg text-white">
@@ -429,29 +681,8 @@
                 </div>
             </div>
         </div>
-    </div>
-
-
-    <!-- EN CASO DE QUERE AGREGAR OTRA EXPERIENCIA -->
-    <!-- <div class="modal fade" id="idexperiencia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl modal-dialog-scrollable">
-            <div class="modal-content modal__content--border">
-                <div class="modal-header modal__header--bg text-white">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Lorem ipsum dolor sit amet.</h1>
-                </div>
-                <div class="modal-body modal__body--bg">
-
-                    <span>CONTENIDO AQUÍ</span>
-
-                </div>
-                <div class="modal-footer modal__footer--bg">
-                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">
-                        Cerrar
-                    </button>
-                </div>
-            </div>
-        </div>
     </div> -->
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"

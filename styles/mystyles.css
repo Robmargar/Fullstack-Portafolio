@@ -223,6 +223,11 @@ nav {
     font-weight: bold;
 }
 
+.logo_Rm{
+    width: 20px;
+    margin-right: 5px;
+}
+
 /* media querys */
 @media screen and (max-width: 991.98px) {
     .contenedor__principal {
